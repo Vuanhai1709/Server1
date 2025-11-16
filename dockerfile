@@ -6,6 +6,5 @@ RUN apt update && apt install -y \
     wget \
     unzip \
     sudo \
-    python3
-
-RUN curl -sSf https://sshx.io/get | sh -s run
+    python3 \
+    sudo
